@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            style="@style/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="32dp"
+            android:text="Empecemos !" />
+
+        <EditText android:id="@+id/etUniversidad" style="@style/Campo"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" android:hint="Universidad - Colegio" />
+
+        <EditText android:id="@+id/etCarrera" style="@style/Campo"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" android:hint="Carrera" />
+
+        <EditText android:id="@+id/etSemestre" style="@style/Campo"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" android:hint="Semestre - Grado" />
+
+        <Button
+            android:id="@+id/btnHorario"
+            style="@style/Boton"
+            android:text="Carga aquí tu horario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Ya sea en imagen, archivo, excel o texto"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btnIniciar"
+            style="@style/Boton"
+            android:layout_width="140dp"
+            android:layout_marginTop="64dp"
+            android:text="Iniciar" />
+    </LinearLayout>
+</ScrollView>
